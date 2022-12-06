@@ -1,0 +1,135 @@
+body{
+    margin: 10px;
+    text-align: center  ;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+.first-container{
+    padding-bottom: 300px;
+}
+.outer{
+    background-color: #0000FF;
+    height: 300px;
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+   background-color: #00009E;
+   padding: 10px;
+   position: relative;
+}
+.navbar{
+color:white;
+margin: 10px;
+}
+
+.first{
+background-image: url(images/pexels-rfstudio-3059748.jpg);
+background-size: cover;
+background-position: center;
+height: 350px;
+width: 80%;
+display: block;
+margin: auto;
+box-shadow: black 0 0 10px;
+}
+.head{
+    color: white;
+
+}
+.second-container{
+    display: grid;
+    grid-template-areas:"a b c d" ;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
+.first-hr{
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+h3{
+    color: grey;
+}
+.btn{
+    background-color: grey;
+    color: white;
+    border: 0;
+    padding: 10px;
+}
+.one{
+    padding-bottom: 30px;
+}
+.img1{
+    width: 300px;
+}
+.btn1{
+    background-color: #00009E;
+    color: azure;
+    padding: 10px;
+    border: 0;
+}
+.third-container{
+    display: flex;
+  /* margin-left: 8%;
+  margin-right: 8%; */
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+h2{
+    color: #00009E;
+    /* padding: 20px; */
+}
+h4{
+    color: red;
+}
+.third-a{
+  margin-left: 6% ;
+margin-right: 6%;
+}
+.text2{
+  color:black;
+ 
+}
+.footer{
+    color:aliceblue;
+    background-color: #00009E;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-top: 30px;
+}
+.b2{
+    width: 150%;
+}
+@media screen and (max-width: 600px){
+.heading{
+    flex-direction: column;
+}
+.first-hr{
+    margin: 1px;
+}
+.outer{
+    height: 500px;
+}
+.img1{
+    margin-top: 50px;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+}
+.third-container{
+    flex-direction: column;
+}
+.b2{
+    width: 100%;
+}
+}
+    
